@@ -70,6 +70,9 @@ Git鼓励大量使用分支：
 - 从远程抓取分支，使用git pull，如果有冲突，要先处理冲突。
 
 
+shell
+-----
+[shell](http://www.cnblogs.com/chengmo/tag/shell/)
 python:
 -------
 
