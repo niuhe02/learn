@@ -73,6 +73,10 @@ Git鼓励大量使用分支：
 shell
 -----
 [shell](http://www.cnblogs.com/chengmo/tag/shell/)
+[shell china unix](http://bbs.chinaunix.net/forum-24-1.html)
+[shell版新手导航](http://bbs.chinaunix.net/thread-674903-1-1.html)
+[shell基础12篇](http://bbs.chinaunix.net/thread-452942-1-1.html)
+
 python:
 -------
 
