@@ -88,3 +88,8 @@ c++
 
 posix
 -----
+
+php
+----
+* [php手册](http://php.net/manual/zh/function.preg-match.php)
+* 
