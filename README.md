@@ -92,4 +92,4 @@ posix
 php
 ----
 * [php手册](http://php.net/manual/zh/function.preg-match.php)
-* 
+* [php教程](http://www.w3school.com.cn/php/index.asp)
