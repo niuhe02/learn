@@ -88,6 +88,8 @@ c++
 
 posix
 -----
+* [易水博客 VI](http://blog.csdn.net/easwy/)
+* [ctags zhongwen](http://easwy.com/blog/archives/exuberant-ctags-chinese-manual/)
 
 php
 ----
