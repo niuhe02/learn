@@ -95,3 +95,7 @@ php
 ----
 * [php手册](http://php.net/manual/zh/function.preg-match.php)
 * [php教程](http://www.w3school.com.cn/php/index.asp)
+
+address
+-------
+* [编程中文书籍索引](http://siberiawolf.com/free_programming/index.html)
