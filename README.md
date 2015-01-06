@@ -79,7 +79,7 @@ shell
 
 python:
 -------
-*[python总结](http://www.cnblogs.com/itech/archive/2011/01/31/1948265.html)
+* [python总结](http://www.cnblogs.com/itech/archive/2011/01/31/1948265.html)
 
 c
 -
