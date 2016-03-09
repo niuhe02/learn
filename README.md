@@ -3,16 +3,23 @@ git:
 [Git 使用的简单汇总](http://blog.csdn.net/richardysteven/article/details/5956854)
 
 ###显示改动 撤销改动
+显示改动
 - “git diff HEAD -- readme.txt”命令可以查看工作区和版本库里面最新版本的区别
 - git diff --staged -- readme 或者 git diff --cached
 显示staged改动，也就是add的东东，也就是将要commit的东东和版本库里面最新的区别
 - git diff -- readme 查看工作区没有add到暂存区的改动的区别
-- 撤销改动
- - git checkout -- file.1
- 撤销了file.1的这次改动。只是撤销了没有staged的改动/即没有执行add。中间的 -- 表明了这是一个文件 而不是一个branch的名字 
- - git reset HEAD -- file.1
- 撤销了所有没有commit的改动，包括了stage的和没有stage的。
- - 这条命令的结果一样
+
+撤销改动
+- git checkout -- file.1
+  - 命令git checkout -- readme.txt意思就是，把readme.txt文件在工作区的修改全部撤销，这里有两种情况：
+  - 一种是readme.txt自修改后还没有被放到暂存区，现在，撤销修改就回到和版本库一模一样的状态；
+  - 一种是readme.txt已经添加到暂存区后，又作了修改，现在，撤销修改就回到添加到暂存区后的状态。
+  - 总之，就是让这个文件回到最近一次git commit或git add时的状态。 
+- git reset HEAD -- file.1
+  撤销了所有没有commit的改动，包括了stage的和没有stage的。
+  - 用命令git reset HEAD file可以把暂存区的修改撤销掉（unstage），重新放回工作区：
+  - git reset命令既可以回退版本，也可以把暂存区的修改回退到工作区。当我们用HEAD时，表示最新的版本。
+  - 这条命令的结果一样
  git checkout HEAD -- file.1
  包括了staged 和没有staged的都会清除。
  - 场景1：当你改乱了工作区某个文件的内容，想直接丢弃工作区的修改时，用命令git checkout -- file。
